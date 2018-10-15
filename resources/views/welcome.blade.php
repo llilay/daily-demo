@@ -85,6 +85,7 @@
                             <input type="button" class="code" value="获取验证码" />
                         </li>
                     </ul>
+                    {!! Geetest::render('popup') !!}
                     <input type="button" id="btnRegister" class="btn-tj" />
                 </div>
                 <!--老用户激活-->
